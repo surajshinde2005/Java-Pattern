@@ -1,0 +1,18 @@
+package patt;
+
+public class Pattern7 {
+
+	public static void main(String[] args)
+	{
+		for(int i = 65; i <= 69; i++)
+		{
+			for(int j = 65; j <= i; j++)
+			{
+				System.out.print((char)j+" "); // for print i
+			}
+				System.out.println();
+		}
+
+	}
+
+}
